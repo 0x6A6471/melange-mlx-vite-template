@@ -35,10 +35,10 @@
  ; https://melange.re/v2.0.0/build-system/#commonjs-or-es6-modules
  (module_systems es6))
 
-(melange.emit
- (target node)
- (alias node)
- (libraries world)
- (modules hello)
- (module_systems
-  (es6 mjs)))
+; (melange.emit
+;  (target node)
+;  (alias node)
+;  (libraries world)
+;  (modules hello)
+;  (module_systems
+;   (es6 mjs)))
