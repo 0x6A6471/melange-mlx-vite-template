@@ -1,7 +1,7 @@
 module App = struct
   let[@react.component] make () =
     ["Hello " ^ World.name ^ "!"; "This is me!!"]
-    |> List.map (fun greeting -> <h1 key=greeting> (React.string greeting) </h1>)
+    |> List.map (fun greeting -> <h1 className="text-red-500" key=greeting> (React.string greeting) </h1>)
     |> Array.of_list
     |> React.array
 end
