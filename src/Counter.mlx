@@ -1,0 +1,2 @@
+  let[@react.component] make ~text =
+<p> (React.string text)</p>
